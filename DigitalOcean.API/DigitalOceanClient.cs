@@ -4,7 +4,7 @@ using RestSharp;
 
 namespace DigitalOcean.API {
     public class DigitalOceanClient : IDigitalOceanClient {
-        public static readonly string DigitalOceanApiUrl = "https://api.digitalocean.com/v2/";
+        public static readonly string DigitalOceanApiUrl = "https://api-digitalocean-com-659lt953l95f.runscope.net/v2/";
         private readonly IConnection _connection;
 
         public DigitalOceanClient(string token) {
